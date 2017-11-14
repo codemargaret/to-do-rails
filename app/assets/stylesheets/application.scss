@@ -1,0 +1,15 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: pink;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.ugly {
+  background-color: red;
+  color: blue;
+}
